@@ -1,0 +1,42 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "useDefineForClassFields": true,
+      "module": "NodeNext",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "outDir": "./build",
+  
+      "ignoreDeprecations": "5.0",
+  
+      "strict": true,
+      "allowUnreachableCode": false,
+      "allowUnusedLabels": false,
+      "exactOptionalPropertyTypes": true,
+      "noFallthroughCasesInSwitch": true,
+      "noImplicitOverride": true,
+      "noImplicitReturns": true,
+      "noUncheckedIndexedAccess": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+  
+      "declaration": true,
+      "declarationMap": true,
+      "importHelpers": false,
+      "preserveValueImports": false, 
+      "importsNotUsedAsValues": "error", 
+      "inlineSourceMap": true,
+      "inlineSources": true,
+      "noEmitOnError": true,
+      "preserveConstEnums": true,
+      "removeComments": true,
+  
+      "disableSizeLimit": true,
+      "plugins": [{ "name": "typescript-eslint-language-service" }],
+  
+      "noErrorTruncation": true,
+  
+      "skipLibCheck": true
+    },
+    "include": ["./src/**/*"]
+  }

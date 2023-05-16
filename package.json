@@ -1,0 +1,31 @@
+{
+  "name": "djs-core",
+  "version": "1.0.0",
+  "description": "Discord bot template with Discord API (discord.js packages)",
+  "main": "./src/index.ts",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "dev": "ts-node-dev --respawn --transpile-only --poll ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romanwashere/djs-core.git"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^1.6.3",
+    "@discordjs/collection": "^1.5.1",
+    "@discordjs/core": "^0.6.0",
+    "@discordjs/rest": "^1.7.1",
+    "@discordjs/ws": "^0.8.3",
+    "quickmongo": "^5.2.0"
+  },
+  "devDependencies": {
+    "discord-api-types": "^0.37.42"
+  },
+  "author": "romanwashere",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/romanwashere/djs-core/issues"
+  },
+  "homepage": "https://github.com/romanwashere/djs-core#readme"
+}
