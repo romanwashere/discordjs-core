@@ -27,7 +27,7 @@ reply(interaction<APIInteraction>, { content: "hello world!" });
 update(interaction<APIInteraction>, { content: "hello world, again!" });
 
 /* create an embed message */
-reply(interaction<APIInteraction>, { embeds: [(await embedBuilder(interaction)).setDescription("hi, i am roman")] });
+reply(interaction<APIInteraction>, { embeds: [(await embedBuilder(interaction)).setDescription("hi, i am roman").data] });
 
 /* find interaction options. */
 getOption(interaction<APIInteraction>, "content");
